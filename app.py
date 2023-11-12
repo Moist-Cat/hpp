@@ -1,11 +1,8 @@
 from flask import Flask, render_template, url_for, request, redirect, send_file, session
 import os
 from random import choice
-# import flask_login
-# import termcolor
 import json
 
-from sqlalchemy import null
 from feature_extractor import get_features
 from predictor import keras_predict
 import pandas as pd
@@ -27,7 +24,7 @@ def predict(prov, munic, descr, pred):
     num = False
 
     for index, row in ifeats.iterrows():
-        for tag, el in row.iteritems():
+        for tag, el in row.items():
             if(tag == "cuartos"):
                 num = True
             if el == -1 or el == False:

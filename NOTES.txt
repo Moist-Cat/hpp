@@ -1,0 +1,19 @@
+> discrete bounds (give a price range based on discrete calculations)
+
+> manually change the details (what if I add [X] feature to the house?)
+
+> tests (an apartment in a poular zone vs a normal Apartment price comparision)
+
+> rely less on internet posts and search other sources
+
+> research more on prices
+
+> use random forests (more control, this is simple linear regression--we don't
+>need so much power)
+
+> difflib instead of whatever the fuck is that DP implementation of the
+>distance algo
+
+> add (actual) requirements [keras, tensorflow, flask, pandas (REMOVE)]
+
+> JSON 1/o(.csv)
